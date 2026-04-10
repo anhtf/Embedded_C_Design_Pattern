@@ -1,4 +1,5 @@
 # Day 10: Return Value Pattern
+> Last updated: 2026-04-10
 
 ## Overview
 Do ngôn ngữ C không hỗ trợ cơ chế ngoại lệ (Exceptions), việc xử lý lỗi thường rơi vào các thiết kế tồi như trộn lẫn mã lỗi vào dữ liệu trả về (In-band error) hoặc dùng biến trạng thái toàn cục. Return Value Pattern chuẩn hóa luồng thực thi: Giá trị trả về của hàm BẮT BUỘC dùng để báo cáo mã trạng thái (Error Codes), trong khi dữ liệu đầu ra được truyền qua các con trỏ đối số (Out-parameters).

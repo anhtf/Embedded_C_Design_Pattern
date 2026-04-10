@@ -1,4 +1,5 @@
 # Day 8: Virtual API Pattern (Polymorphism)
+> Last updated: 2026-04-10
 
 ## Overview
 Virtual API Pattern là cách ngôn ngữ C triển khai tính Đa hình (Polymorphism) của hướng đối tượng. Nó cho phép tầng Ứng dụng giao tiếp với nhiều loại phần cứng/module khác nhau thông qua một giao diện duy nhất (API chung), giúp loại bỏ hoàn toàn các khối `switch-case` rườm rà và giúp hệ thống tuân thủ chặt chẽ nguyên tắc Open-Closed (dễ mở rộng, hạn chế sửa đổi file lõi).

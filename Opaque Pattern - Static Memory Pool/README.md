@@ -1,4 +1,5 @@
 # Day 3: Opaque Pattern & Static Memory Pool
+> Last updated: 2026-04-10
 
 ## Overview
 Opaque Pattern nâng cấp tính đóng gói (Encapsulation) lên mức độ Binary/Header. Nó ngăn chặn triệt để việc tầng Application truy cập trái phép vào dữ liệu bên trong của một Object bằng cách sử dụng Forward Declaration (Con trỏ mờ).

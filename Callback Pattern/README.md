@@ -1,4 +1,5 @@
 # Day 6: Callback Pattern
+> Last updated: 2026-04-10
 ![alt text](<Screenshot From 2026-04-10 15-15-26.png>)
 ## Overview
 Callback Pattern là trái tim của kiến trúc hướng sự kiện (Event-Driven Architecture) trong hệ thống nhúng. Nó đảo ngược sự phụ thuộc (Dependency Inversion), cho phép các tầng cấp thấp (như Hardware Drivers hoặc ISRs) thông báo ngược lên tầng Ứng dụng khi có sự kiện xảy ra mà không cần phải `include` trực tiếp code của ứng dụng.

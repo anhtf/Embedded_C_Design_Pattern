@@ -1,4 +1,5 @@
 # Day 1: Introduction to Embedded C Design Patterns
+> Last updated: 2026-04-10
 
 ## Overview
 Ngôn ngữ C thuần túy mang tính hướng thủ tục, dễ dẫn đến mã nguồn khó bảo trì (spaghetti code), kết dính chặt chẽ (tight coupling) và lạm dụng biến toàn cục (global state manipulation) trong các dự án Embedded quy mô lớn. 

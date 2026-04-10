@@ -1,4 +1,5 @@
 # Day 12: Spinlock Pattern
+> Last updated: 2026-04-10
 
 ## Overview
 Spinlock là một cơ chế đồng bộ hóa (Synchronization) cấp thấp nhất, được thiết kế để bảo vệ các vùng găng (Critical Sections) có thời gian thực thi cực ngắn. Khác với Mutex (đưa Task vào trạng thái ngủ khi bị chặn), Spinlock sử dụng kỹ thuật "Chờ bận" (Busy-waiting). Nó giữ CPU trong một vòng lặp liên tục để thăm dò trạng thái của khóa cho đến khi khóa được mở.

@@ -1,4 +1,5 @@
 # Day 2: Object Pattern (Encapsulation)
+> Last updated: 2026-04-10
 
 ## Overview
 Object Pattern là bước đầu tiên để mang tư duy hướng đối tượng (OOP) vào ngôn ngữ C. Nó giải quyết triệt để vấn đề "Global Variable Hell" (Lạm dụng biến toàn cục) bằng cách gom dữ liệu và trạng thái của một thực thể vật lý/logic vào một khối `struct` duy nhất.

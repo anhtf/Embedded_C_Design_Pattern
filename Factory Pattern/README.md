@@ -1,4 +1,5 @@
 # Day 5: Factory Pattern
+> Last updated: 2026-04-10
 
 ## Overview
 Factory Pattern được sử dụng để đóng gói và trừu tượng hóa quá trình khởi tạo đối tượng. Trong hệ thống Embedded, việc cấu hình một ngoại vi (I2C, SPI, Sensors) thường bao gồm nhiều thao tác thanh ghi phức tạp. Factory chịu trách nhiệm thực thi các quy trình này dựa trên các tham số đầu vào đơn giản (như enum cấu hình) và trả về một instance đã sẵn sàng hoạt động.

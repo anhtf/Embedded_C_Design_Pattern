@@ -1,4 +1,5 @@
 # Day 11: Concurrency Pattern Overview
+> Last updated: 2026-04-10
 
 ## Overview
 Khi chuyển từ lập trình Bare-metal (Single-threaded) sang RTOS (Multi-threaded) hoặc Multicore, kiến trúc hệ thống thay đổi hoàn toàn. Nhiều Tasks sẽ tranh giành thời gian thực thi của CPU. Concurrency Pattern tập trung vào việc nhận diện, đóng gói và quản lý các Tài nguyên dùng chung (Shared Resources) để ngăn chặn các lỗi tương tranh dữ liệu.

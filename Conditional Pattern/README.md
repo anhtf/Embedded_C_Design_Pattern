@@ -1,4 +1,5 @@
 # Day 15: Conditional Pattern (Condition Variables)
+> Last updated: 2026-04-10
 
 ## Overview
 Conditional Pattern (hay Condition Variables - CondVars) là công cụ đồng bộ hóa giải quyết triệt để tình trạng Busy-Waiting/Polling khi một luồng (Task) cần chờ một biểu thức logic trở thành sự thật (ví dụ: `buffer_count > 0` hoặc `state == READY`). Nó cho phép Task giải phóng khóa (Mutex) và đi vào giấc ngủ một cách nguyên tử (atomically), sau đó được đánh thức chính xác khi trạng thái hệ thống thay đổi.

@@ -1,4 +1,5 @@
 # Day 9: Bridge Pattern (Hardware Abstraction)
+> Last updated: 2026-04-10
 
 ## Overview
 Bridge Pattern là thiết kế cốt lõi để xây dựng các lớp trừu tượng phần cứng (Hardware Abstraction Layers - HAL). Nó giải quyết vấn đề "Cartesian Product" (Sự bùng nổ tổ hợp), nơi bạn có M loại cảm biến và N loại giao thức giao tiếp, bằng cách tách bạch hoàn toàn logic ứng dụng (Abstraction) khỏi chi tiết điều khiển phần cứng (Implementation).

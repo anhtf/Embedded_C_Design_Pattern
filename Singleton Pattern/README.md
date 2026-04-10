@@ -1,4 +1,5 @@
 # Day 4: Singleton Pattern
+> Last updated: 2026-04-10
 
 ## Overview
 Singleton Pattern đảm bảo một module hoặc tài nguyên phần cứng chỉ có duy nhất một thực thể (instance) tồn tại trong toàn bộ hệ thống. Trong Embedded, mẫu này cực kỳ hữu ích để quản lý các tài nguyên độc nhất như Watchdog Timer, System Clock, hoặc Power Management.

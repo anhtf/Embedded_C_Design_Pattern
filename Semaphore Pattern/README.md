@@ -1,4 +1,5 @@
 # Day 13: Semaphore Pattern (Signaling & Deferred Processing)
+> Last updated: 2026-04-10
 
 ## Overview
 Semaphore (Đèn tín hiệu) là công cụ đồng bộ hóa nền tảng của RTOS. Khác với Spinlock bắt CPU phải chờ bận, Semaphore cho phép Task đi vào trạng thái Block/Sleep, nhường 100% CPU cho các Task khác. Semaphore là kiến trúc cốt lõi để triển khai mô hình "Xử lý trì hoãn" (Deferred Processing / Top-half & Bottom-half), giúp giảm thiểu thời gian chiếm dụng CPU của các trình phục vụ ngắt (ISR).

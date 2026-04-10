@@ -1,4 +1,5 @@
 # Day 14: Mutex Pattern (Resource Protection)
+> Last updated: 2026-04-10
 
 ## Overview
 Mutex (Mutual Exclusion) là cơ chế đồng bộ hóa bắt buộc để bảo vệ các Tài nguyên dùng chung (Shared Resources) trong môi trường Đa luồng (RTOS). Khác với Semaphore dùng để báo hiệu, Mutex có "Tính sở hữu" (Ownership) - chỉ Task giữ khóa mới được phép nhả khóa. Tính chất này giúp RTOS triển khai các thuật toán chống lại hiện tượng Đảo ngược quyền ưu tiên (Priority Inversion).

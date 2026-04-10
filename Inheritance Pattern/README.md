@@ -1,4 +1,5 @@
 # Day 7: Inheritance Pattern
+> Last updated: 2026-04-10
 
 ## Overview
 Inheritance Pattern trong C cho phép tái sử dụng cấu trúc dữ liệu và logic bằng cách nhúng một "Base struct" vào vị trí đầu tiên của một "Derived struct". Kỹ thuật này dựa trên tiêu chuẩn C về việc không có padding trước thành viên đầu tiên, cho phép thực hiện ép kiểu an toàn (Upcasting) giữa đối tượng con và đối tượng cha.
